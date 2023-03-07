@@ -75,23 +75,30 @@
             <version>2.0.7</version>
         </dependency>
 
-        <dependency>
-            <groupId>org.springframework.cloud</groupId>
-            <artifactId>spring-cloud-starter-bootstrap</artifactId>
-            <version>3.1.3</version>
-        </dependency>
+        <!-- <dependency> -->
+        <!--     <groupId>org.springframework.cloud</groupId> -->
+        <!--     <artifactId>spring-cloud-starter-bootstrap</artifactId> -->
+        <!--     <version>3.1.3</version> -->
+        <!-- </dependency> -->
 
-        <!--nacos 配置中心-->
-        <dependency>
-            <groupId>com.alibaba.cloud</groupId>
-            <artifactId>spring-cloud-starter-alibaba-nacos-config</artifactId>
-            <version>2021.1</version>
-        </dependency>
+        <!-- &lt;!&ndash;nacos 配置中心&ndash;&gt; -->
+        <!-- <dependency> -->
+        <!--     <groupId>com.alibaba.cloud</groupId> -->
+        <!--     <artifactId>spring-cloud-starter-alibaba-nacos-config</artifactId> -->
+        <!--     <version>2021.1</version> -->
+        <!-- </dependency> -->
 
+        <!-- <dependency> -->
+        <!--     <groupId>com.alibaba.cloud</groupId> -->
+        <!--     <artifactId>spring-cloud-starter-alibaba-nacos-discovery</artifactId> -->
+        <!--     <version>2021.1</version> -->
+        <!-- </dependency> -->
+
+        <!-- Sa-Token 权限认证，在线文档：https://sa-token.cc -->
         <dependency>
-            <groupId>com.alibaba.cloud</groupId>
-            <artifactId>spring-cloud-starter-alibaba-nacos-discovery</artifactId>
-            <version>2021.1</version>
+            <groupId>cn.dev33</groupId>
+            <artifactId>sa-token-spring-boot-starter</artifactId>
+            <version>1.34.0</version>
         </dependency>
 
     </dependencies>
